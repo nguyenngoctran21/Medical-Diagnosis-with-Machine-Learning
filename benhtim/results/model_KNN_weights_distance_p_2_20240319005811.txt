@@ -1,0 +1,29 @@
+Kết quả của mô hình với:
+Siêu tham số weights: distance
+Siêu tham số p: 2
+Tên giải thuật: KNN
+...Model Scores:
+Accuracy KNN: 0.6885
+
+Confusion Matrix:
+[[19 10]
+ [ 8 24]]
+
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.70      0.66      0.68        29
+           1       0.71      0.75      0.73        32
+
+    accuracy                           0.70        61
+   macro avg       0.70      0.70      0.70        61
+weighted avg       0.70      0.70      0.70        61
+
+
+Cross-validated Metrics:
+Accuracy: 0.6472
+Precision: 0.6627
+Recall: 0.7212
+F1: 0.6904
+AUC-ROC: 0.6541

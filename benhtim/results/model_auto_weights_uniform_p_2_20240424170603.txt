@@ -1,0 +1,29 @@
+Kết quả của mô hình với:
+Siêu tham số weights: uniform
+Siêu tham số p: 2
+Tên giải thuật: auto
+...Model Scores:
+KNN: 0.6885
+
+Confusion Matrix:
+[[18 11]
+ [ 8 24]]
+
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.69      0.62      0.65        29
+           1       0.69      0.75      0.72        32
+
+    accuracy                           0.69        61
+   macro avg       0.69      0.69      0.69        61
+weighted avg       0.69      0.69      0.69        61
+
+
+Cross-validated Metrics:
+Accuracy: 0.6439
+Precision: 0.6589
+Recall: 0.7212
+F1: 0.6884
+AUC-ROC: 0.6561

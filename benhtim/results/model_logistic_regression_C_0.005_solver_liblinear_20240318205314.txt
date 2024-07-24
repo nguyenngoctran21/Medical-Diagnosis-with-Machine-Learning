@@ -1,0 +1,33 @@
+Kết quả của mô hình:
+Siêu tham số C: 0.005
+Siêu tham số solver: liblinear
+Tên giải thuật: logistic_regression
+...Model Scores:
+LogisticRegression: 0.8852
+
+Logistic Regression Best Parameters:
+C: 0.005
+Test Accuracy: 0.8197
+
+Confusion Matrix:
+[[24  5]
+ [ 6 26]]
+
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.80      0.83      0.81        29
+           1       0.84      0.81      0.83        32
+
+    accuracy                           0.82        61
+   macro avg       0.82      0.82      0.82        61
+weighted avg       0.82      0.82      0.82        61
+
+
+Cross-validated Metrics:
+Accuracy: 0.7457
+Precision: 0.7449
+Recall: 0.8121
+F1: 0.7757
+AUC-ROC: 0.8153
